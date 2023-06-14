@@ -34,9 +34,7 @@ const Feed = () => {
   };
 
   useEffect(() => {
-    setInterval(() => {
-      fetchPosts();
-    }, 1000);
+    fetchPosts();
   }, []);
 
   const filterPrompts = (searchtext) => {
